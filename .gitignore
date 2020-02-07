@@ -1,3 +1,6 @@
 *.swp
 past-collage.py
 past-main.py
+.vscode/
+last.dat
+log.txt
