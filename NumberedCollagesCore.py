@@ -106,7 +106,6 @@ class ImageSelector:
         self.portraitCollagePictures = self.assignCollagePictures(portraitImages)
         self.landscapeCollagePictures = self.assignCollagePictures(landscapeImages)
 
-
     def getImageFiles(self):
         files = [f for f in listdir(self.rootFolder) if isfile(join(self.rootFolder, f))]
         return [join(self.rootFolder, i) for i in files if i.endswith(".jpg") or i.endswith(".png")]
@@ -128,6 +127,8 @@ class ImageSelector:
             collagePictures.append([imageList[i] for i in range(4*setsOfFour, imageListSize)])
 
         return collagePictures
+
+    
 
 
 class CollageCreator:
@@ -186,7 +187,6 @@ class CollageCreator:
 
         self.clearBufferFiles()
         self.logStatistics()
-
 
     def resizeImages(self, pictures):
 

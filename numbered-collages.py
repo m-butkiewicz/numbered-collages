@@ -14,7 +14,7 @@ START_COLLAGE_BTN = "Utwórz kolaże"
 class TarninowyKolaz:
     def __init__(self, master):
         self.master = master
-        master.title("Tarninowy Kolaż")
+        master.title("Numerowany Kolaż")
         master.iconbitmap("appicon.ico")
         master.resizable(0,0)
 
