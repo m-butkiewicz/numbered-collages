@@ -1,0 +1,7 @@
+# Numerowany Kolaż
+
+Intro
+
+## Instalacja
+
+...
